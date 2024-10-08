@@ -1,8 +1,8 @@
-** Process.API ** 
+## Process.API  
 
 * Refer to comments in the MyServlet.java file
 
-** Create Directories & Files **
+## Create Directories & Files 
 
 * mkdir projectname
 * cd projectname
@@ -15,13 +15,13 @@
 
 * touch script.py 
 
-** Files **
+## Files 
 
 * script.py: Your python script. (script.py can be located anywhere as long as the .java code maintains the correct path of it).
 * index.jsp: An HTML file. 
 * web.xml: Deployment descriptor. Map the servlet to a URL pattern.
 
-** Compiling ** 
+## Compiling  
 
 * javac -cp /path/to/your/main/tomcat/lib/servlet-api.jar -d build/WEB-INF/classes /src/main/java/com/example/MyServlet.java
 
@@ -43,10 +43,10 @@ To manually update the .war file:
 
 * jar -uvf projectname.war -C build/ .
 
-** File Transfer ** 
+## File Transfer  
 
 * cp Projectname.war /path/to/your/tomcat/instance/webapps/
 
-** Access **
+## Access 
 
 * http://ip_addr:port/Projectname
